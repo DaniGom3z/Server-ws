@@ -11,5 +11,5 @@ export function dataHandler (io: Server, socket : Socket) {
             throw new Error(error.message);
         }
     }
-    socket.on(Events.SEND_DATA, sendMessage);
+    socket.on(Events.Enviar_DATA, sendMessage);
 }

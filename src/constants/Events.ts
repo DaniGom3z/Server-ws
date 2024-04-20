@@ -1,4 +1,4 @@
 export enum Events {
-    SEND_DATA = 'send_data',
+    Enviar_DATA = 'enviar_data',
     SEND_MESSAGE = 'send_message',
 }
